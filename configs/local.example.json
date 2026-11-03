@@ -1,0 +1,16 @@
+{
+  "data_root": "data",
+  "geospatial": {
+    "network_dataset_path": null,
+    "schools_source_path": null,
+    "blocks_source_path": null,
+    "travel_mode": null,
+    "service_area_breaks_minutes": [
+      5,
+      10,
+      15
+    ],
+    "counts_are_cumulative": true
+  }
+}
+

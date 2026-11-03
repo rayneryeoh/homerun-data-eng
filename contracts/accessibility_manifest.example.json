@@ -1,0 +1,48 @@
+{
+  "feature_snapshot_id": "REPLACE_WITH_SNAPSHOT_ID",
+  "generated_at_utc": null,
+  "code_version": null,
+  "python_version": null,
+  "arcgis_pro_version": null,
+  "inputs": {
+    "blocks": {
+      "path": null,
+      "version": null,
+      "sha256": null
+    },
+    "schools": {
+      "path": null,
+      "version": null,
+      "sha256": null
+    },
+    "network_dataset": {
+      "path": null,
+      "version": null
+    }
+  },
+  "settings": {
+    "travel_mode": null,
+    "travel_direction": null,
+    "coordinate_reference_system": null,
+    "service_area_breaks_minutes": [
+      5,
+      10,
+      15
+    ],
+    "counts_are_cumulative": true,
+    "school_definition": null,
+    "school_deduplication_rule": null
+  },
+  "outputs": [
+    {
+      "file": "school_counts.csv",
+      "sha256": null,
+      "row_count": null
+    }
+  ],
+  "validation": {
+    "status": "not_run",
+    "notes": []
+  }
+}
+

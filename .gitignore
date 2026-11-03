@@ -1,0 +1,24 @@
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+/configs/local.json
+.DS_Store
+
+# Preserve data directories; store actual datasets separately.
+/data/**
+!/data/**/
+!/data/**/.gitkeep
+
