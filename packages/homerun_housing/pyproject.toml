@@ -9,6 +9,9 @@ description = "Housing data preparation for Homerun."
 requires-python = ">=3.10"
 dependencies = []
 
+[project.optional-dependencies]
+notebooks = ["pandas>=2.2,<3", "jupyterlab>=4,<5", "ipykernel>=6,<8"]
+
 [tool.setuptools.packages.find]
 where = ["src"]
 

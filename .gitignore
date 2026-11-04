@@ -9,12 +9,14 @@ dist/
 .pytest_cache/
 .coverage
 htmlcov/
+.ipynb_checkpoints/
 
 # Local settings and credentials
 .env
 .env.*
 !.env.example
 /configs/local.json
+/notebooks/local/
 .DS_Store
 
 # Preserve data directories; store actual datasets separately.

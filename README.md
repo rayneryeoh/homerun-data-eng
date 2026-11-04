@@ -13,6 +13,7 @@ Data preparation for an agentic system that recommends resale flats.
 - `pipelines/`: Future entry points that coordinate package functions.
 - `contracts/`: Dataset conventions and export provenance.
 - `tests/`: Future tests using small synthetic fixtures.
+- `notebooks/`: Exploratory merges, dataset generation and quality checks.
 
 The processing modules are placeholders. No ingestion, geoprocessing or recommendation pipeline is implemented yet.
 
@@ -25,6 +26,14 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e packages/homerun_housing
 ```
+
+For notebook development, install the optional dependencies into your chosen Python environment:
+
+```sh
+python -m pip install -e 'packages/homerun_housing[notebooks]'
+python -m jupyterlab
+```
+
 
 For geospatial code development, install its package in the same environment:
 

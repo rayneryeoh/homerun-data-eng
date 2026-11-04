@@ -1,0 +1,8 @@
+{
+    "python-envs.pythonProjects": [],
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.analysis.extraPaths": [
+        "./packages/homerun_housing/src",
+        "./packages/homerun_geo/src"
+    ]
+}
